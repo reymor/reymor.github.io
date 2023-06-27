@@ -1,4 +1,11 @@
-theme: jekyll-theme-minimal
-title: reymor's homepage
-description: Bookmark this to keep an eye on my project updates!
+remote_theme: riggraz/no-style-please
+title: reymor
+description: reymor's homepage
+author: Reyders Morales
+email: reyders1@gmail.com 
 
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: "<--" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
