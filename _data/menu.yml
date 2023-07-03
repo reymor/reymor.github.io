@@ -8,3 +8,10 @@ entries:
         url: https://github.com/reymor
       - title: email
         url: mailto:reyders1@gmail.com
+
+  - title: posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
