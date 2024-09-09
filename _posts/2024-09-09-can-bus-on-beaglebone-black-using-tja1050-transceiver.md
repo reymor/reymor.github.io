@@ -9,6 +9,11 @@ Here you can use these cheaps adapters that you can find online
 
 The BBB has two internal CAN-Bus controller which are called `DCAN0` and `DCAN1`. Here, we are going to use `DCAN1` because the `DCAN0` interface is shared with I2C-Bus for cape-identification. `DCAN1` interface is multiplexed to the connector P9 pin 24 (CAN_RX --> UART1_TXD) and 26 (CAN_TX --> UART1_RXD).
 
+| PIN   | Function | 
+| ---   | ---      |
+| P9.24 | CAN_RX   |
+| P9.26 | CAN_TX   |
+
 ![beagleboneblack_pins](https://raw.githubusercontent.com/reymor/reymor.github.io/master/files/pics/beagleboneblack_pins.png)
 
 ## Configure BeagleBone Black pins
